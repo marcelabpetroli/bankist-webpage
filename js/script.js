@@ -1,8 +1,5 @@
 'use strict';
 
-///////////////////////////////////////
-// Modal window
-
 const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
 
@@ -25,6 +22,8 @@ const closeModal = () => {
 
 btnsOpenModal.forEach(btn => btn.addEventListener('click', openModal));
 
+// LISTENERS
+
 btnCloseModal.addEventListener('click', closeModal);
 overlay.addEventListener('click', closeModal);
 
@@ -37,4 +36,14 @@ document.addEventListener('keydown', e => {
 btnScrollTo.addEventListener('click', e => {
   // Smooth scroll
   section1.scrollIntoView({ behavior: 'smooth' });
+});
+
+document.querySelector('.nav__links').addEventListener('click', function (e) {
+  e.preventDefault();
+
+  // Matching logic
+  if (e.target.classList.contains('nav__link')) {
+    const id = e.target.getAttribute('href');
+    document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
+  }
 });

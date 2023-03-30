@@ -5,3 +5,4 @@ This is a project created by Jonas Schmedtmann for his course 'The Complete Java
 ## Goals
 
 - Learn how to use HTML DOM Element scrollIntoView.
+- Learn Event Delegation and best practices to page navigation.
