@@ -12,3 +12,4 @@ This is a project created by Jonas Schmedtmann for his course 'The Complete Java
 - Create a sticky nav using IntersectionObserver API and .getBoundingClientRect() method.
 - Learn how to optimize images with lazy loading.
 - Learn how to build a slider component.
+- Understand how to efficiently load js script using defer.
