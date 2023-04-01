@@ -10,3 +10,4 @@ This is a project created by Jonas Schmedtmann for his course 'The Complete Java
 - Build a tabbed component using HTML attributes data-tab and dataset.
 - Understand .bind() method to work around handler 1 parameter-rule.
 - Create a sticky nav using IntersectionObserver API and .getBoundingClientRect() method.
+- Learn how to optimize images with lazy loading.
